@@ -44,8 +44,18 @@ body{
 .d-flex {
     display: flex;
 }
+
+.d-inlineBlock {
+    display: inline-block;
+}
 .j-center {
     justify-content: center;
+}
+
+.j-spaceIcons {
+    justify-content: space-around;
+    width: 40%;
+    filter: invert(1);
 }
 
 .d-flex > .button {
@@ -221,6 +231,11 @@ body{
     color: black;
 }
 
+.d-flex > img {
+    width: 15px;
+    height: 15px;
+}
+
 /* BOX CONTENUTO */
 
 .mainImg {
@@ -298,6 +313,9 @@ body{
 
 /* PROPRIETA' FOOTER */
 
+footer {
+    background-color: #23272a;
+}
 .footercontainermain {
 
     display: flex;
@@ -307,23 +325,27 @@ body{
 }
 
 .leftbox {
-    background-color: #f08080;
-    height: 450px;
+    display: flex;
+    flex-direction: column;
     width: 33%;
+    margin: 0px auto;
+    height: 450px;
 }
 
 .rightbox {
-    background-color: #20b2aa;
     height: 450px;
     width: 67%;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
 }
 
 .flexrow {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     width: 25%;
+    align-items: flex-start;
 }
 
 hr {
@@ -334,7 +356,6 @@ hr {
     display: flex;
     width: 50%;
     margin: 30px auto 0 auto;
-    background-color: #7fffd4;
     height: 50px;
     justify-content: space-between;
     align-items: center;
@@ -348,6 +369,17 @@ hr {
 
 }
 
+.leftbutton {
+    border: 1px solid #8ea1e1;
+    background-color: #8ea1e1;
+    align-self: center;
+    padding: 8px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 13px;
+
+}
+
 /* ELEMENTI DI TESTO */
 
 h1 {
@@ -355,6 +387,43 @@ h1 {
     font-size: 50px;
     padding-top: 50px;
     
+}
+
+.s-30px {
+    font-size: 30px;
+}
+
+h5 {
+    padding: 5px;
+}
+
+#languageIcon {
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+#languageIcon::before{
+    content: "";
+    background: url('../img/ita.png') center no-repeat;
+    width: 27px;
+    height: 20px;
+    float: left;
+    background-size: 16px;
+}
+
+.arrowDown {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    filter: invert(1);
+}
+
+
+
+
+#purpleText {
+    color: #7289da;
 }
 
 .centered {
@@ -379,6 +448,5 @@ h1 {
 
 }
 
-/* TEST */
 
 
