@@ -7,14 +7,52 @@
 
 body{
     background-color: #222222;
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
+.button {
+    padding: 8px 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    
+    
+}
+
+.btnWhite {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+
+}
+
+.btnBlack {
+    border: 1px solid #23272a;
+    background-color: #23272a;
+    color: white;
+
+}
+
+.d-flex {
+    display: flex;
+}
+.j-center {
+    justify-content: center;
+}
+
+.d-flex > .button {
+    margin: 10px;
+}
+
+.px-20 {
+    padding: 8px 20px;
+
+}
 /* PROPRIETA' HEADER  */
 
  header {
-    background-color: #add8e6;
+    background-color: #2d5fe5;
     display: flex;
 	flex-direction: column; 
 	justify-content: space-between;
@@ -26,13 +64,15 @@ body{
 
 .menu-item > a {
     text-decoration: none;
+    color: white;
+    white-space: nowrap;
 }
 
 .menu {
 	display: flex;
 	flex-direction: row; 
 	justify-content: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
     width: 50%;
     align-items: center;
     
@@ -40,18 +80,18 @@ body{
 }
 
 .menu-item {
-	padding: 0 5px;
+	padding: 0 20px;
 }
 
 .flexcontainertop {
-    background-color: #daa520;
+    background-color: #3161e0;
     display: flex;
 	flex-direction: row; 
 	justify-content: space-around;
 	flex-wrap: wrap;
-    width: 50%;
+    width: 60%;
     height: 2em;
-    margin: 10px auto;
+    margin: 30px auto;
     
 }
 
@@ -68,6 +108,7 @@ body{
 .logo {
     justify-content: flex-start;
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .login {
@@ -83,21 +124,37 @@ body{
     display: flex;
     width: 100%;
     margin: 0px auto;
+    height: 500px;
+    align-items: center;
 }
 
 .maincontent {
-    background-color: #ee82ee;
-    height: 310px;
+
     width: 40%;
     margin: 30px auto;
 }
 
 /* FINE CONTENUTO HEADER */
 
-/* COLORI DI SFONDO */
+/* ICONE */
 
-.bluerow {
-    background-color: #00008b;
+.longArrow::before{
+    content: "";
+    display: block;
+    background: url('../img/down-long.svg') center no-repeat;
+    background-size: auto;
+    width: 27px;
+    height: 20px;
+    float: left;
+    background-size: 9px;
+}
+
+/* CONTENUTI DI SFONDO */
+
+.headerContent {
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-position: center;
 }
 
 .whiterow {
@@ -200,4 +257,25 @@ hr {
     align-self: center;
     padding: 5px;
 
+}
+
+/* ELEMENTI DI TESTO */
+
+h1 {
+    
+    font-size: 50px;
+    padding-top: 50px;
+    
+}
+
+.centered {
+    text-align: center;
+}
+
+.topParagraph {
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 600;
+    
 }
