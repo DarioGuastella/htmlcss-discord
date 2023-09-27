@@ -1,4 +1,5 @@
 /* PROPRIETA' COMUNI  */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,29 +10,24 @@ body{
     background-color: #222222;
     color: white;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .button {
     padding: 8px 10px;
     border-radius: 40px;
-    cursor: pointer;
-    
-    
+    cursor: pointer;    
 }
 
 .btnWhite {
     border: 1px solid white;
     background-color: white;
     color: black;
-
 }
 
 .btnBlack {
     border: 1px solid #23272a;
     background-color: #23272a;
     color: white;
-
 }
 
 .btnPurple {
@@ -48,6 +44,7 @@ body{
 .d-inlineBlock {
     display: inline-block;
 }
+
 .j-center {
     justify-content: center;
 }
@@ -64,18 +61,17 @@ body{
 
 .px-20 {
     padding: 8px 20px;
-
 }
 
 .pt-36 {
     padding-top: 36px;
-
 }
 
 .w-60 {
     width: 60%;
     min-height: 300px;
 }
+
 .w-40 {
     width: 40%;
 }
@@ -114,15 +110,11 @@ body{
 	flex-wrap: nowrap;
     width: 50%;
     align-items: center;
-    
-    
 }
 
 .menu-item {
 	padding: 0 20px;
 }
-
-
 
 .logo, .login {
     width: 25%;
@@ -130,8 +122,7 @@ body{
 	flex-direction: row; 
 	justify-content: center;
 	flex-wrap: wrap;
-    align-self: center;
-    
+    align-self: center;    
 }
 
 .logo {
@@ -142,16 +133,8 @@ body{
 
 .login {
     justify-content: flex-end;
-    padding-right: 10px;
-
-    
+    padding-right: 10px;    
 }
-
-
-
-
-
-
 
 /* FINE CONTENUTO HEADER */
 
@@ -189,20 +172,15 @@ body{
 }
 
 .greyrow {
-    background-color: #f6f6f6;
-    /* background-image: url(../img/wave.svg); */
-    /* border-image: url('../img/wave.svg') 30; */
+    background-color: #f6f6f6;   
 }
 
 .mainFirstImage {
-    background-image: url(../img/item1.svg);
-    
+    background-image: url(../img/item1.svg);    
 }
 
 .mainSecondImage {
-
     background-image: url(../img/item2.svg);
-
 }
 
 .mainThirdImage {
@@ -218,8 +196,6 @@ body{
   width: 402px;
   margin-bottom: -18px;
 }
-
-
 
 .centeredImg {
     width: 100%;
@@ -245,13 +221,10 @@ body{
     width: 60%;
 }
 
-
 .greenbox {
-
     height: 620px;
     width: 50%;
     margin: 30px auto;
-
 }
 
 /* CONTENITORE FLEX */
@@ -272,15 +245,11 @@ body{
 	flex-wrap: wrap;
     width: 60%;
     height: 2em;
-    margin: 30px auto;
-    
+    margin: 30px auto;    
 }
 
 .contentflexbox {
     display: flex;
-	/* flex-direction: row; 
-	justify-content: space-around;
-	flex-wrap: wrap; */
     width: 50%;
     margin: 0 auto;
 }
@@ -293,12 +262,10 @@ body{
     align-items: center;
 }
 
-
 .bigflexcontainer {
     display: flex;
     height: 680px;
     width: 100%;
-
 }
 
 .flex-container {
@@ -316,12 +283,11 @@ body{
 footer {
     background-color: #23272a;
 }
-.footercontainermain {
 
+.footercontainermain {
     display: flex;
     width: 50%;
     margin: 5px auto 30px auto;
-
 }
 
 .leftbox {
@@ -359,14 +325,12 @@ hr {
     height: 50px;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .rightbutton, .leftbutton {
     background-color: #ffb6c1;
     align-self: center;
     padding: 5px;
-
 }
 
 .leftbutton {
@@ -377,16 +341,13 @@ hr {
     border-radius: 40px;
     cursor: pointer;
     font-size: 13px;
-
 }
 
 /* ELEMENTI DI TESTO */
 
-h1 {
-    
+h1 {    
     font-size: 50px;
-    padding-top: 50px;
-    
+    padding-top: 50px;    
 }
 
 .s-30px {
@@ -419,9 +380,6 @@ h5 {
     filter: invert(1);
 }
 
-
-
-
 #purpleText {
     color: #7289da;
 }
@@ -434,8 +392,7 @@ h5 {
     padding-top: 40px;
     font-size: 16px;
     line-height: 2rem;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
 
 .mainParagraph {
@@ -443,10 +400,5 @@ h5 {
 }
 
 .mainTitle {
-
     font-size: 40px;
-
 }
-
-
-
